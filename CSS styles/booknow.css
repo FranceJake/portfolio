@@ -1,0 +1,33 @@
+.container-hire {
+  letter-spacing: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.hired {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.btn-hire {
+  margin-top: 20px;
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 45px;
+  transition: transform 0.8s;
+  cursor: pointer;
+}
+
+.btn-hire:hover {
+  background-color: rgb(231, 118, 118);
+  color: white;
+  transform: scale(1.2);
+}
+
+.btn-hire:active {
+  opacity: 0.6;
+}

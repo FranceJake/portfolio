@@ -1,0 +1,17 @@
+.cert-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cert {
+  width: 700px;
+  height: auto;
+}
+
+.certificate {
+  width: 650px;
+  height: 620px;
+  background-position: center;
+  background-size: contain;
+}

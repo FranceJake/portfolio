@@ -1,0 +1,86 @@
+.form {
+  width: 500px;
+  height: 600px;
+  margin-left: 100px;
+  text-align: center;
+  border: 1px white solid;
+  border-radius: 30px;
+}
+
+.fill-up {
+  color: white;
+  background: transparent;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 30px;
+  border: transparent white;
+  border-radius: 10px;
+  padding-left: 15px;
+  border-style: solid;
+}
+
+.message {
+  background: transparent;
+  color: white;
+  border-style: solid;
+  width: 400px;
+  height: 150px;
+  resize: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.send {
+  margin-top: 25px;
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 45px;
+  transition: transform 0.8s;
+  cursor: pointer;
+}
+
+.send:hover {
+  background-color: rgb(231, 118, 118);
+  color: white;
+  transform: scale(1.2);
+}
+
+.social-container {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.social-media {
+  width: 500px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.logo2 {
+  width: 40px;
+  vertical-align: middle;
+  padding: 25px 15px;
+  cursor: pointer;
+}
+.end {
+  width: 600px;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  border-radius: 50px;
+}
+
+footer {
+  text-align: center;
+}

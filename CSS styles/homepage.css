@@ -1,0 +1,20 @@
+.container-intro {
+  padding-left: 380px;
+  margin-top: 250px;
+}
+
+.name-row {
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 75px;
+  font-style: italic;
+}
+
+.tagline {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(214, 72, 72);
+  margin-top: 0;
+}
