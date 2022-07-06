@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS styles/generalstyle.css">
+    <link rel="stylesheet" href="CSS styles/navdesign.css">
+    <link rel="stylesheet" href="CSS styles/homepage.css">
+    <link rel="stylesheet" href="CSS styles/aboutme.css">
+    <link rel="stylesheet" href="CSS styles/certificate.css">
+    <link rel="stylesheet" href="./CSS styles/services.css">
+    <link rel="stylesheet" href="./CSS styles/booknow.css">
+    <link rel="stylesheet" href="./CSS styles/contactus.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>DeSigns</title>
+    <link rel="icon" type="image/x-icon" href="./logo/favicon.ico">
+</head>
+
+<body>
+
+    <!--Homepage-->
+    <div class="homepage">
+        <div class="container-nav">
+            <nav>
+                <h1 class="logo"><span class="my">FJM</span>DeSigns</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container-intro">
+            <h1 class="name-row">Hi, I'm <span class="name">France Jake!</span></h1>
+            <h4><span class="tagline">"I don't just build websites, I build websites that SELLS"</span></h4>
+
+        </div>
+    </div>
+
+    <!--About Me-->
+    <div class="about-me">
+        <div class="container-pic">
+            <img class="profile-pic" src="./images/profile-pic.jpg">
+        </div>
+        <div class="intro">
+            <h2 class="intro-center">All big things come from small beginnings</h2>
+            <hr>
+            <p class="intro-left">I am France Jake, an aspiring Website Developer!</p>
+            <p class="intro-left">I'm highly inventive, enthusiastic, and goal-driven in accomplishing tasks that
+                require
+                creativity and versatility. Also enthusiastic and outgoing at building positive relationships with both
+                clients and co-workers by offering superior service. </p>
+
+            <p class="intro-left">I dedicate my self to enhance my abilities
+                constantly for the benefit of the team as a part of a growing and helping company.</p>
+        </div>
+    </div>
+
+    <!--Certifications-->
+
+    <div class="container-cert">
+        <div class="section-head"><span class="my">Cert</span>ificates</div>
+
+        <div class="cert-data">
+
+            <div class="cert"> <img class="certificate" src="./Certificates/GoogleDigitalGarage.jpg"> </div>
+
+            <div class="cert"> <img class="certificate" src="./Certificates/GoogleAdsCert.jpg"> </div>
+
+        </div>
+    </div>
+
+    <!--Services offered-->
+    <div>
+        <div class="section-head"><span class="my">Serv</span>ices</div>
+
+        <div class="container-services">
+
+            <div class="service-frame"><img class="services" src="./logo/research.png">
+                <h2>Lead Generation/Product Researcher</h2>
+                <p>Search the Internet for information on a wide variety of topics and also attract and qualify more
+                    potential customers.</p>
+            </div>
+
+            <div class="service-frame"><img class="services" src="./logo/csr.png">
+                <h2>Customer Service</h2>
+                <p>Provide excellent service to customers by fulfilling their inquiries to while ensuring customer
+                    satisfaction.</p>
+
+            </div>
+
+            <div class="service-frame"><img class="services" src="./logo/dev.png">
+                <h2>Full-Stack Website Development</h2>
+                <p>Responsible for the design and construction of websites.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Projects-->
+    <div class="container-project">
+        <div class="section-head"><span class="my">Proj</span>ects</div>
+        <div>
+
+        </div>
+    </div>
+
+    <!--Book now-->
+    <div class="container-hire">
+        <h1>Let's <span class="my">work together</span>!</h1>
+        <h3>I'm available for <span class="my">freelance</span> projects.</h3>
+
+        <button class="btn-hire">Hire Me <img class="hired" src="./logo/handshake.png"></button>
+    </div>
+
+    <!--Contact Us-->
+    <div class="container-contact">
+        <div class="form">
+            <form action="">
+                <h1> Tell me how I can help you!</h1>
+                <input class="fill-up" type="text" placeholder="Name*:"><br>
+                <input class="fill-up" type="text" placeholder="E-mail*:"><br>
+                <input class="fill-up" type="text" placeholder="Phone Number*:"><br>
+                <textarea class="message" placeholder="Message*:" maxlength="350"></textarea><br>
+                <input class="send" type="submit" value="SEND">
+            </form>
+        </div>
+
+        <div class="social-container">
+            <div class="social-media">
+
+                <div>
+                    <img class="logo2" src="./logo/logo-whatsapp.png">+63 945 331 6213
+                </div>
+                <div>
+                    <img class="logo2" src="./logo/logo-mail.png">francejake.marababol@gmail.com
+                </div>
+                <div>
+                    <img class="logo2" src="./logo/logo-fb.png">https://www.facebook.com/fmarababol/
+                </div>
+
+                <div>
+                    <img class="logo2" src="./logo/logo-insta.png">https://www.instagram.com/francejake/
+                </div>
+            </div>
+
+            <div>
+                <img class="end" src="./images/thumbnail-end.jpg">
+            </div>
+        </div>
+
+    </div>
+
+    <!--back to top-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+
+    <footer>
+        <p>Created by FranceJake. &copy; 2022</p>
+    </footer>
+
+</body>
+
+</html>
